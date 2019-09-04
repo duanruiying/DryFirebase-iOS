@@ -1,0 +1,6 @@
+framework module DryFirebase_iOS {
+  umbrella header "DryFirebase-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
