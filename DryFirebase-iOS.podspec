@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   # Git
   s.name        = 'DryFirebase-iOS'
-  s.version     = '0.0.1'
+  s.version     = '1.0.0'
   s.summary     = 'DryFirebase-iOS'
   s.homepage    = 'https://github.com/duanruiying/DryFirebase-iOS'
   s.license     = { :type => 'MIT', :file => 'LICENSE' }

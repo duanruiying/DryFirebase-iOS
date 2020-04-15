@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		22752D0856E2B2F207F90512 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		238F7D28738F6A74641859B7 /* Pods-DryFirebase-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DryFirebase-iOS_Example.release.xcconfig"; path = "Target Support Files/Pods-DryFirebase-iOS_Example/Pods-DryFirebase-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		266DB4FA4E5F6710B18E95D1 /* DryFirebase-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "DryFirebase-iOS.podspec"; path = "../DryFirebase-iOS.podspec"; sourceTree = "<group>"; };
+		266DB4FA4E5F6710B18E95D1 /* DryFirebase-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "DryFirebase-iOS.podspec"; path = "../DryFirebase-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		274425139FA11B8158DC16C4 /* Pods-DryFirebase-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DryFirebase-iOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-DryFirebase-iOS_Example/Pods-DryFirebase-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3E0BD971D1919179B2BC73BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		58F9A3C24EC96AE9EFABADBC /* Pods-DryFirebase-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DryFirebase-iOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DryFirebase-iOS_Tests/Pods-DryFirebase-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -200,16 +200,15 @@
 				ORGANIZATIONNAME = Dry;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 8PWWH32WMP;
+						DevelopmentTeam = XLE6PLCUL5;
 					};
 				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "DryFirebase-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -246,13 +245,15 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DryFirebase-iOS_Example/Pods-DryFirebase-iOS_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,7 +432,7 @@
 			baseConfigurationReference = 274425139FA11B8158DC16C4 /* Pods-DryFirebase-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8PWWH32WMP;
+				DEVELOPMENT_TEAM = XLE6PLCUL5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DryFirebase-iOS/DryFirebase-iOS-Prefix.pch";
 				INFOPLIST_FILE = "DryFirebase-iOS/DryFirebase-iOS-Info.plist";
@@ -448,7 +449,7 @@
 			baseConfigurationReference = 238F7D28738F6A74641859B7 /* Pods-DryFirebase-iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8PWWH32WMP;
+				DEVELOPMENT_TEAM = XLE6PLCUL5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DryFirebase-iOS/DryFirebase-iOS-Prefix.pch";
 				INFOPLIST_FILE = "DryFirebase-iOS/DryFirebase-iOS-Info.plist";
